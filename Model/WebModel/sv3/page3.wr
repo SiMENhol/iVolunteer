@@ -1,0 +1,29 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv3#page3" name="Projects" gr:x="-200" gr:y="195" landmark="true">
+  <ContentUnits>
+    <PowerIndexUnit id="sv3#page3#pwu3" name="Projects" gr:x="0" gr:y="0" sortable="true" checkable="false" useCountQuery="false" entity="ent4" displayAttributes="ent4#att41 ent4#att42" linkOrder="sv3#page3#pwu3#ln30">
+      <Link id="sv3#page3#pwu3#ln30" name="Details" to="sv3#page22#pwu1" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#page3#pwu3">
+          <layout:Attribute attribute="ent4#att41"/>
+          <layout:Attribute attribute="ent4#att42"/>
+          <layout:Link link="sv3#page3#pwu3#ln30"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

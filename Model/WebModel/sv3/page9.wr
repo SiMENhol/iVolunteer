@@ -1,0 +1,59 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="805" gr:y="545" id="sv3#page9" name="Search NPO by name" landmark="true">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="5" id="sv3#page9#enu9" name="Search NPO or name" linkOrder="sv3#page9#enu9#ln34">
+      <Field id="sv3#page9#enu9#fld4" name="Search" type="string" modifiable="true"/>
+      <Link id="sv3#page9#enu9#ln34" name="Search" to="sv3#page9#pwu6" type="normal" validate="true">
+        <LinkParameter id="sv3#page9#enu9#ln34#par31" name="Search_npoName" source="sv3#page9#enu9#fld4" target="sv3#page9#pwu6#su20#acond10"/>
+      </Link>
+    </EntryUnit>
+    <PowerIndexUnit gr:x="235" gr:y="0" id="sv3#page9#pwu6" name="NPO" sortable="true" checkable="false" useCountQuery="false" entity="ent2" displayAttributes="ent2#att23 ent2#att34" linkOrder="sv3#page9#pwu6#ln39">
+      <SortAttribute attribute="ent2#att23" order="ascending"/>
+      <Selector id="sv3#page9#pwu6#su20" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="sv3#page9#pwu6#su20#acond10" name="npoName" predicate="contains" booleanOperator="or" implied="true" attributes="ent2#att23" ignoreCase="true"/>
+      </Selector>
+      <Link id="sv3#page9#pwu6#ln39" name="View more information" to="sv3#page24#dau7" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#page9#enu9">
+          <layout:Field field="sv3#page9#enu9#fld4"/>
+          <layout:Link link="sv3#page9#enu9#ln34"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#page9#pwu6">
+          <layout:Attribute attribute="ent2#att23"/>
+          <layout:Attribute attribute="ent2#att34"/>
+          <layout:Link link="sv3#page9#pwu6#ln39"/>
+          <layout:Link link="sv3#page9#pwu6ent2#att23"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

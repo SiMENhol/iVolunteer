@@ -1,0 +1,72 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv3#page12" name="VolunteerPage" landmark="true" gr:x="285" gr:y="20">
+  <ContentUnits>
+    <GetUnit id="sv3#page12#gtu2" name="Get1" gr:x="0" gr:y="5" contextParameters="UserCtxParam">
+      <Link id="sv3#page12#gtu2#ln27" name="Flow27" to="sv3#page12#dau4" type="transport" validate="true">
+        <LinkParameter id="sv3#page12#gtu2#ln27#par10" name="UserCtxParam.oid_KeyCondition14 [volunteerID]" source="sv3#page12#gtu2.UserCtxParam" target="sv3#page12#dau4#su14#kcond14.ent1#att1"/>
+      </Link>
+    </GetUnit>
+    <IndexUnit id="sv3#page12#inu3" name="Projects assigned to user" gr:x="5" gr:y="115" entity="ent4"/>
+    <DataUnit gr:x="145" gr:y="0" id="sv3#page12#dau4" name="InfoAboutVolunteer" entity="ent1" displayAttributes="ent1#att15 ent1#att16 ent1#att5 ent1#att6 ent1#att11 ent1#att12" linkOrder="sv3#page12#dau4#ln26">
+      <Selector id="sv3#page12#dau4#su14" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#page12#dau4#su14#kcond14" name="KeyCondition14" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv3#page12#dau4#ln26" name="Edit details" to="sv3#page19#enu7" automaticCoupling="true" type="normal" validate="true"/>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#page12#dau4">
+          <layout:Link link="sv3#page12#dau4#ln26"/>
+          <layout:Attribute attribute="ent1#att15"/>
+          <layout:Attribute attribute="ent1#att16"/>
+          <layout:Attribute attribute="ent1#att5"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att11"/>
+          <layout:Attribute attribute="ent1#att12"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#page12#inu3"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

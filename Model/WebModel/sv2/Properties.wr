@@ -1,0 +1,28 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2" name="AdminSiteView" protected="true" homePage="sv2#page4" landmarks="sv2#page4 sv2#page5 sv2#page13">
+  <OperationUnits>
+    <ModifyUnit gr:x="855" gr:y="375" id="sv2#mfu5" name="UpdateVolunteer" entity="ent1" gr:showAllParts="false">
+      <Selector id="sv2#mfu5#su6" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#mfu5#su6#kcond6" name="KeyCondition6" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv2#mfu5#oln5" name="OKFlow5" to="sv2#page5" automaticCoupling="true"/>
+    </ModifyUnit>
+    <ModifyUnit id="sv2#mfu6" name="UpdateNPO" gr:showAllParts="false" gr:x="295" gr:y="385" entity="ent2">
+      <Selector id="sv2#mfu6#su7" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#mfu6#su7#kcond7" name="KeyCondition6" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv2#mfu6#oln6" name="OKFlow5" to="sv2#page13" automaticCoupling="true"/>
+    </ModifyUnit>
+    <DeleteUnit gr:x="25" gr:y="385" id="sv2#dlu1" name="DeleteNPO" entity="ent2">
+      <Selector id="sv2#dlu1#su8" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#dlu1#su8#kcond8" name="KeyCondition8" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv2#dlu1#oln7" name="OKFlow7" to="sv2#page13" automaticCoupling="true"/>
+    </DeleteUnit>
+    <DeleteUnit gr:x="540" gr:y="385" id="sv2#dlu2" name="DeleteVolunteer" entity="ent2">
+      <Selector id="sv2#dlu2#su9" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#dlu2#su9#kcond9" name="KeyCondition9" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv2#dlu2#oln8" name="OKFlow8" to="sv2#page5" automaticCoupling="true"/>
+    </DeleteUnit>
+  </OperationUnits>
+</SiteView>

@@ -1,0 +1,63 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#page20" name="ProjectDetails" gr:x="1230" gr:y="-130">
+  <ContentUnits>
+    <EntryUnit id="sv1#page20#enu8" name="Edit Project" linkOrder="sv1#page20#enu8#ln28" gr:x="0" gr:y="0" entity="ent4">
+      <Field id="sv1#page20#enu8#fld69" name="projectID" type="integer" modifiable="true" attribute="ent4#att40"/>
+      <Field id="sv1#page20#enu8#fld70" name="projectName" type="string" modifiable="true" attribute="ent4#att41"/>
+      <Field id="sv1#page20#enu8#fld71" name="projectDescription" type="string" modifiable="true" attribute="ent4#att42"/>
+      <Field id="sv1#page20#enu8#fld72" name="projectAddress" type="string" modifiable="true" attribute="ent4#att43"/>
+      <Field id="sv1#page20#enu8#fld73" name="projectLocation" type="string" modifiable="true" attribute="ent4#att44"/>
+      <Field id="sv1#page20#enu8#fld74" name="projectStatus" type="integer" modifiable="true" attribute="ent4#att45"/>
+      <Field id="sv1#page20#enu8#fld75" name="projectCreatedDate" type="date" modifiable="true" attribute="ent4#att46"/>
+      <Field id="sv1#page20#enu8#fld76" name="projectModifiedDate" type="date" modifiable="true" attribute="ent4#att47"/>
+      <Field id="sv1#page20#enu8#fld77" name="projectStartDate" type="date" modifiable="true" attribute="ent4#att48"/>
+      <Field id="sv1#page20#enu8#fld78" name="projectEndDate" type="date" modifiable="true" attribute="ent4#att49"/>
+      <Field id="sv1#page20#enu8#fld79" name="projectRequirments" type="string" modifiable="true" attribute="ent4#att50"/>
+      <Link id="sv1#page20#enu8#ln28" name="Modify" to="sv1#mfu3" type="normal" automaticCoupling="true" validate="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page20#enu8">
+          <layout:Field field="sv1#page20#enu8#fld69"/>
+          <layout:Field field="sv1#page20#enu8#fld70"/>
+          <layout:Field field="sv1#page20#enu8#fld71"/>
+          <layout:Field field="sv1#page20#enu8#fld72"/>
+          <layout:Field field="sv1#page20#enu8#fld73"/>
+          <layout:Field field="sv1#page20#enu8#fld74"/>
+          <layout:Field field="sv1#page20#enu8#fld75"/>
+          <layout:Field field="sv1#page20#enu8#fld76"/>
+          <layout:Field field="sv1#page20#enu8#fld77"/>
+          <layout:Field field="sv1#page20#enu8#fld78"/>
+          <layout:Field field="sv1#page20#enu8#fld79"/>
+          <layout:Link link="sv1#page20#enu8#ln28"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

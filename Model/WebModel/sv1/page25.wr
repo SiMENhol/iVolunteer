@@ -1,0 +1,96 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="1580" gr:y="265" id="sv1#page25" name="Project details">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv1#page25#enu12" name="Project details" entity="ent4" linkOrder="sv1#page25#enu12#ln56 sv1#page25#enu12#ln60 sv1#page25#enu12#ln61">
+      <Field id="sv1#page25#enu12#fld61" name="projectID" type="integer" modifiable="true" attribute="ent4#att40"/>
+      <Field id="sv1#page25#enu12#fld62" name="projectName" type="string" modifiable="true" attribute="ent4#att41"/>
+      <Field id="sv1#page25#enu12#fld80" name="projectDescription" type="string" modifiable="true" attribute="ent4#att42"/>
+      <Field id="sv1#page25#enu12#fld81" name="projectAddress" type="string" modifiable="true" attribute="ent4#att43"/>
+      <Field id="sv1#page25#enu12#fld82" name="projectLocation" type="string" modifiable="true" attribute="ent4#att44"/>
+      <Field id="sv1#page25#enu12#fld83" name="projectStatus" type="integer" modifiable="true" attribute="ent4#att45"/>
+      <Field id="sv1#page25#enu12#fld84" name="projectCreatedDate" type="date" modifiable="true" attribute="ent4#att46"/>
+      <Field id="sv1#page25#enu12#fld85" name="projectModifiedDate" type="date" modifiable="true" attribute="ent4#att47"/>
+      <Field id="sv1#page25#enu12#fld86" name="projectStartDate" type="date" modifiable="true" attribute="ent4#att48"/>
+      <Field id="sv1#page25#enu12#fld87" name="projectEndDate" type="date" modifiable="true" attribute="ent4#att49"/>
+      <Field id="sv1#page25#enu12#fld88" name="projectRequirments" type="string" modifiable="true" attribute="ent4#att50"/>
+      <MultiSelectionField id="sv1#page25#enu12#msfld4" name="ProjectEntityToNonProfitOrganizationEntity" type="string" role="rel11#role22"/>
+      <SelectionField id="sv1#page25#enu12#sfld3" name="ProjectEntityToTaskEntity" type="string" role="rel10#role19"/>
+      <Link id="sv1#page25#enu12#ln56" name="Add task to project" to="sv1#cnu3" type="normal" validate="true">
+        <LinkParameter id="sv1#page25#enu12#ln56#par24" name="projectID_KeyCondition20 [projectID] [ProjectEntity] [Source]" source="sv1#page25#enu12#fld61" target="sv1#cnu3#su24#kcond20.ent4#att40"/>
+      </Link>
+      <Link id="sv1#page25#enu12#ln60" name="Flow60" to="sv1#page25#pwu11" type="normal" validate="true">
+        <LinkParameter id="sv1#page25#enu12#ln60#par26" name="Key [projectID]_PASSING" source="key.ent4#att40" passing="true"/>
+      </Link>
+      <Link id="sv1#page25#enu12#ln61" name="View task connected to project" to="sv1#page30#inu9" automaticCoupling="true" type="normal" validate="true"/>
+    </EntryUnit>
+    <PowerIndexUnit gr:x="5" gr:y="230" id="sv1#page25#pwu11" name="List11" sortable="true" checkable="false" useCountQuery="false" entity="ent6" displayAttributes="ent6#att70 ent6#att71 ent6#att90"/>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page25#enu12">
+          <layout:Field field="sv1#page25#enu12#fld61"/>
+          <layout:Field field="sv1#page25#enu12#fld62"/>
+          <layout:Field field="sv1#page25#enu12#fld80"/>
+          <layout:Field field="sv1#page25#enu12#fld81"/>
+          <layout:Field field="sv1#page25#enu12#fld82"/>
+          <layout:Field field="sv1#page25#enu12#fld83"/>
+          <layout:Field field="sv1#page25#enu12#fld84"/>
+          <layout:Field field="sv1#page25#enu12#fld85"/>
+          <layout:Field field="sv1#page25#enu12#fld86"/>
+          <layout:Field field="sv1#page25#enu12#fld87"/>
+          <layout:Field field="sv1#page25#enu12#fld88"/>
+          <layout:Field field="sv1#page25#enu12#msfld4"/>
+          <layout:Field field="sv1#page25#enu12#sfld3"/>
+          <layout:Link link="sv1#page25#enu12#ln56"/>
+          <layout:Link link="sv1#page25#enu12#ln60"/>
+          <layout:Link link="sv1#page25#enu12#ln61"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page25#pwu11">
+          <layout:Attribute attribute="ent6#att70"/>
+          <layout:Attribute attribute="ent6#att71"/>
+          <layout:Attribute attribute="ent6#att90"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -1,0 +1,74 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#page21" name="BrowseYourProjects" landmark="true" gr:x="1225" gr:y="35">
+  <ContentUnits>
+    <GetUnit gr:x="0" gr:y="5" id="sv1#page21#gtu8" name="Get" contextParameters="UserCtxParam">
+      <Link id="sv1#page21#gtu8#ln42" name="Flow42" to="sv1#page21#pwu5" type="transport" validate="true">
+        <LinkParameter id="sv1#page21#gtu8#ln42#par14" name="UserCtxParam.oid_current npoID" source="sv1#page21#gtu8.UserCtxParam" target="sv1#page21#pwu5.current.ent2#att18"/>
+      </Link>
+    </GetUnit>
+    <PowerIndexUnit gr:x="190" gr:y="0" id="sv1#page21#pwu5" name="Browse project" sortable="true" checkable="false" useCountQuery="false" entity="ent2" displayAttributes="ent2#att18 rel11#role21.ent4#att40 rel11#role21.ent4#att41" linkOrder="sv1#page21#pwu5#ln44 sv1#page21#pwu5#ln45 sv1#page21#pwu5#ln48">
+      <Link id="sv1#page21#pwu5#ln44" name="Delete project" to="sv1#page8#enu11" type="normal" validate="true">
+        <LinkParameter id="sv1#page21#pwu5#ln44#par15" name="NonProfitOrganizationEntityToProjectEntity.projectID_Key Condition [projectID]" source="data[].rel11#role21$ent4#att40" target="sv1#page8#enu11.ent4#att40"/>
+      </Link>
+      <Link id="sv1#page21#pwu5#ln45" name="Edit project" to="sv1#page20#enu8" type="normal" validate="true">
+        <LinkParameter id="sv1#page21#pwu5#ln45#par16" name="NonProfitOrganizationEntityToProjectEntity.projectID_Key Condition [projectID]" source="data[].rel11#role21$ent4#att40" target="sv1#page20#enu8.ent4#att40"/>
+      </Link>
+      <Link id="sv1#page21#pwu5#ln48" name="More information" to="sv1#page25#enu12" type="normal" validate="true">
+        <LinkParameter id="sv1#page21#pwu5#ln48#par18" name="NonProfitOrganizationEntityToProjectEntity.projectName_Key Condition [projectID]" source="data[].rel11#role21$ent4#att40" target="sv1#page25#enu12.ent4#att40"/>
+      </Link>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page21#pwu5">
+          <layout:Attribute attribute="ent2#att18"/>
+          <layout:Attribute attribute="rel11#role21.ent4#att40"/>
+          <layout:Attribute attribute="rel11#role21.ent4#att41"/>
+          <layout:Link link="sv1#page21#pwu5#ln44"/>
+          <layout:Link link="sv1#page21#pwu5#ln45"/>
+          <layout:Link link="sv1#page21#pwu5#ln48"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#page21#ln46" name="Create a new project" to="sv1#page6" type="normal" automaticCoupling="true" validate="true"/>
+</Page>

@@ -1,0 +1,35 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="1120" gr:y="350" id="sv3#page24" name="NPO info">
+  <ContentUnits>
+    <DataUnit gr:x="0" gr:y="0" id="sv3#page24#dau7" name="NPOInfo" entity="ent2" displayAll="true">
+      <Selector id="sv3#page24#dau7#su22" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#page24#dau7#su22#kcond17" name="KeyCondition17" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#page24#dau7">
+          <layout:Attribute attribute="ent2#att23"/>
+          <layout:Attribute attribute="ent2#att24"/>
+          <layout:Attribute attribute="ent2#att25"/>
+          <layout:Attribute attribute="ent2#att26"/>
+          <layout:Attribute attribute="ent2#att33"/>
+          <layout:Attribute attribute="ent2#att34"/>
+          <layout:Attribute attribute="ent2#att39"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

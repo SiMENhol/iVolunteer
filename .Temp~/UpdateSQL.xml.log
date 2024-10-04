@@ -1,0 +1,37 @@
+[12 jul 2024 02:30:57] DEBUG Executing SQL script
+[12 jul 2024 02:30:57] INFO ================================================================================
+[12 jul 2024 02:30:57] INFO onError= 'stop'
+[12 jul 2024 02:30:57] INFO autoCommit= 'false'
+[12 jul 2024 02:30:57] INFO username= 'admin'
+[12 jul 2024 02:30:57] INFO outputPath= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\iVolunteer\.Temp~\UpdateSQL.xml'
+[12 jul 2024 02:30:57] INFO outputLogPath= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\iVolunteer\.Temp~\UpdateSQL.xml.log'
+[12 jul 2024 02:30:57] INFO encoding= ''
+[12 jul 2024 02:30:57] INFO driverClass= 'org.apache.derby.jdbc.ClientDriver'
+[12 jul 2024 02:30:57] INFO sqlScript= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\iVolunteer\.Temp~\UpdateSQL.sql'
+[12 jul 2024 02:30:57] INFO eventSocketPort= '55908'
+[12 jul 2024 02:30:57] INFO statementSeparator= ';'
+[12 jul 2024 02:30:57] INFO derby.system.home= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby'
+[12 jul 2024 02:30:57] INFO password= 'admin'
+[12 jul 2024 02:30:57] INFO url= 'jdbc:derby://localhost:50103/iVolunteer_DB;create=true'
+[12 jul 2024 02:30:57] INFO ================================================================================
+[12 jul 2024 02:30:57] INFO Connecting to the Database...
+[12 jul 2024 02:30:57] INFO Database connection estabilished
+[12 jul 2024 02:30:57] INFO transaction isolation: 2
+[12 jul 2024 02:30:57] DEBUG ================================================================================
+[12 jul 2024 02:30:57] DEBUG Executing SQL script file: C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\iVolunteer\.Temp~\UpdateSQL.sql
+[12 jul 2024 02:30:57] DEBUG Executing statement:  alter table "APP"."VOLUNTEERENTITY"  add column  "TASKENTITY_TASKID"  integer
+[12 jul 2024 02:30:57] DEBUG Executing statement:  alter table "APP"."VOLUNTEERENTITY"   add constraint FK_VOLUNTEERENTITY_TASKENTITY foreign key ("TASKENTITY_TASKID") references "APP"."TASKENTITY" ("TASKID")
+[12 jul 2024 02:30:57] DEBUG Executing statement:    create table "APP"."VOLUNTEERENTITY_TASKENTITY_2" ( "VOLUNTEERENTITY_VOLUNTEERID"  integer not null, "TASKENTITY_TASKID"  integer not null, primary key ("VOLUNTEERENTITY_VOLUNTEERID", "TASKENTITY_TASKID") )
+[12 jul 2024 02:30:57] DEBUG Executing statement:  alter table "APP"."VOLUNTEERENTITY_TASKENTITY_2"   add constraint FK_VOLUNTEERENTITY_TASKENTIT_2 foreign key ("VOLUNTEERENTITY_VOLUNTEERID") references "APP"."VOLUNTEERENTITY" ("VOLUNTEERID")
+[12 jul 2024 02:30:57] DEBUG Executing statement:  alter table "APP"."VOLUNTEERENTITY_TASKENTITY_2"   add constraint FK_VOLUNTEERENTITY_TASKENTIT_3 foreign key ("TASKENTITY_TASKID") references "APP"."TASKENTITY" ("TASKID")
+[12 jul 2024 02:30:57] DEBUG Executing statement:    alter table "APP"."PROJECTENTITY"   add constraint FK_PROJECTENTITY_TASKENTITY foreign key ("TASKENTITY_TASKID") references "APP"."TASKENTITY" ("TASKID")
+[12 jul 2024 02:30:57] DEBUG Executing statement:    alter table "APP"."NONPROFITORGANIZATIONENTITY_PR"   add constraint FK_NONPROFITORGANIZATIONENTITY foreign key ("NONPROFITORGANIZATIONENTITY_NP") references "APP"."NONPROFITORGANIZATIONENTITY" ("NPOID")
+[12 jul 2024 02:30:57] DEBUG Executing statement:    alter table "APP"."NONPROFITORGANIZATIONENTITY_PR"   add constraint FK_NONPROFITORGANIZATIONENTI_3 foreign key ("PROJECTENTITY_PROJECTID") references "APP"."PROJECTENTITY" ("PROJECTID")
+[12 jul 2024 02:30:57] DEBUG Executing statement:    alter table "APP"."NONPROFITORGANIZATIONENTITY"   add constraint FK_NONPROFITORGANIZATIONENTI_2 foreign key ("PROJECTENTITY_PROJECTID") references "APP"."PROJECTENTITY" ("PROJECTID")
+[12 jul 2024 02:30:57] DEBUG Executing statement:    alter table "APP"."VOLUNTEERENTITY_PROJECTENTITY"   add constraint FK_VOLUNTEERENTITY_PROJECTEN_2 foreign key ("VOLUNTEERENTITY_VOLUNTEERID") references "APP"."VOLUNTEERENTITY" ("VOLUNTEERID")
+[12 jul 2024 02:30:57] DEBUG Executing statement:    alter table "APP"."VOLUNTEERENTITY_PROJECTENTITY"   add constraint FK_VOLUNTEERENTITY_PROJECTENTI foreign key ("PROJECTENTITY_PROJECTID") references "APP"."PROJECTENTITY" ("PROJECTID")
+[12 jul 2024 02:30:57] DEBUG Executing statement:    alter table "APP"."VOLUNTEERENTITY"   add constraint FK_VOLUNTEERENTITY_PROJECTEN_3 foreign key ("PROJECTENTITY_PROJECTID") references "APP"."PROJECTENTITY" ("PROJECTID")
+[12 jul 2024 02:30:57] DEBUG ================================================================================
+[12 jul 2024 02:30:57] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[12 jul 2024 02:30:57] INFO Database connection closed
+[12 jul 2024 02:30:57] DEBUG Total time: 505 milliseconds

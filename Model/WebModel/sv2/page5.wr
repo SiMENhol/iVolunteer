@@ -1,0 +1,35 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="555" gr:y="170" id="sv2#page5" name="Edit Volunteers" landmark="true">
+  <ContentUnits>
+    <IndexUnit gr:x="0" gr:y="0" id="sv2#page5#inu5" name="Volunteers" entity="ent1" displayAttributes="ent1#att15 ent1#att16 ent1#att5 ent1#att6 ent1#att11 ent1#att12" linkOrder="sv2#page5#inu5#ln10 sv2#page5#inu5#ln14">
+      <Link id="sv2#page5#inu5#ln10" name="Edit" to="sv2#page11#enu5" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv2#page5#inu5#ln14" name="Delete " to="sv2#dlu2" automaticCoupling="true" type="normal" validate="true"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#page5#inu5">
+          <layout:Attribute attribute="ent1#att15"/>
+          <layout:Attribute attribute="ent1#att16"/>
+          <layout:Attribute attribute="ent1#att5"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att11"/>
+          <layout:Attribute attribute="ent1#att12"/>
+          <layout:Link link="sv2#page5#inu5#ln10"/>
+          <layout:Link link="sv2#page5#inu5#ln14"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

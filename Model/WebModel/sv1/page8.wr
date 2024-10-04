@@ -1,0 +1,19 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="1055" gr:y="225" id="sv1#page8" name="Delete project">
+  <ContentUnits>
+    <EntryUnit gr:x="80" gr:y="10" id="sv1#page8#enu11" name="Project" entity="ent4" linkOrder="sv1#page8#enu11#ln25">
+      <Field id="sv1#page8#enu11#fld36" name="projectID" type="integer" modifiable="false" attribute="ent4#att40"/>
+      <Field id="sv1#page8#enu11#fld37" name="projectName" type="string" modifiable="false" attribute="ent4#att41"/>
+      <Field id="sv1#page8#enu11#fld38" name="projectDescription" type="string" modifiable="false" attribute="ent4#att42"/>
+      <Field id="sv1#page8#enu11#fld39" name="projectAddress" type="string" modifiable="false" attribute="ent4#att43"/>
+      <Field id="sv1#page8#enu11#fld40" name="projectLocation" type="string" modifiable="false" attribute="ent4#att44"/>
+      <Field id="sv1#page8#enu11#fld55" name="projectStatus" type="integer" modifiable="false" attribute="ent4#att45"/>
+      <Field id="sv1#page8#enu11#fld56" name="projectCreatedDate" type="date" modifiable="false" attribute="ent4#att46"/>
+      <Field id="sv1#page8#enu11#fld57" name="projectModifiedDate" type="date" modifiable="false" attribute="ent4#att47"/>
+      <Field id="sv1#page8#enu11#fld58" name="projectStartDate" type="date" modifiable="false" attribute="ent4#att48"/>
+      <Field id="sv1#page8#enu11#fld59" name="projectEndDate" type="date" modifiable="false" attribute="ent4#att49"/>
+      <Field id="sv1#page8#enu11#fld60" name="projectRequirments" type="string" modifiable="false" attribute="ent4#att50"/>
+      <Link id="sv1#page8#enu11#ln25" name="Delete project" to="sv1#dlu3" automaticCoupling="true" type="normal" validate="true"/>
+    </EntryUnit>
+    <MultiMessageUnit gr:x="0" gr:y="0" id="sv1#page8#mssu1" name="Reminder">
+      <Message xml:space="preserve">Please note that every task connected to this project will also be deleted.
+</Message>    </MultiMessageUnit>  </ContentUnits>  <layout:Grid containerType="grid">    <layout:Row>      <layout:Cell colspan="5">        <layout:Unit unitId="sv1#page8#mssu1"/>      </layout:Cell>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell colspan="7"/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>    </layout:Row>    <layout:Row>      <layout:Cell colspan="7">        <layout:Unit unitId="sv1#page8#enu11">          <layout:Field field="sv1#page8#enu11#fld36"/>          <layout:Field field="sv1#page8#enu11#fld37"/>          <layout:Field field="sv1#page8#enu11#fld38"/>          <layout:Field field="sv1#page8#enu11#fld39"/>          <layout:Field field="sv1#page8#enu11#fld40"/>          <layout:Field field="sv1#page8#enu11#fld55"/>          <layout:Field field="sv1#page8#enu11#fld56"/>          <layout:Field field="sv1#page8#enu11#fld57"/>          <layout:Field field="sv1#page8#enu11#fld58"/>          <layout:Field field="sv1#page8#enu11#fld59"/>          <layout:Field field="sv1#page8#enu11#fld60"/>          <layout:Link link="sv1#page8#enu11#ln25"/>        </layout:Unit>      </layout:Cell>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell colspan="5"/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>    </layout:Row>    <layout:Row>      <layout:Cell colspan="12"/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>    </layout:Row>  </layout:Grid></Page>

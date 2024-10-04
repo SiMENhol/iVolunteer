@@ -1,0 +1,45 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#page14" name="Edit NPO" gr:x="280" gr:y="170">
+  <ContentUnits>
+    <EntryUnit id="sv2#page14#enu6" name="Edit volunteer" gr:x="0" gr:y="0" entity="ent2" linkOrder="sv2#page14#enu6#ln16">
+      <Field id="sv2#page14#enu6#fld28" name="Name" type="string" modifiable="true" attribute="ent2#att23"/>
+      <Field id="sv2#page14#enu6#fld29" name="Email" type="string" modifiable="true" attribute="ent2#att24"/>
+      <Field id="sv2#page14#enu6#fld30" name="Password" type="string" modifiable="true" attribute="ent2#att25"/>
+      <Field id="sv2#page14#enu6#fld31" name="PhoneNumber" type="integer" modifiable="true" attribute="ent2#att26"/>
+      <Field id="sv2#page14#enu6#fld32" name="Address" type="string" modifiable="true" attribute="ent2#att33"/>
+      <Field id="sv2#page14#enu6#fld41" name="Information" type="string" modifiable="true" attribute="ent2#att34"/>
+      <Field id="sv2#page14#enu6#fld42" name="Category" type="string" modifiable="true" attribute="ent2#att39"/>
+      <MultiSelectionField id="sv2#page14#enu6#msfld1" name="NonProfitOrganizationEntityToProjectEntity" type="string" role="rel11#role21"/>
+      <SelectionField id="sv2#page14#enu6#sfld1" name="NonProfitOrganizationEntityToProjectEntity_2" type="string" role="rel13#role25"/>
+      <Link id="sv2#page14#enu6#ln16" name="Update" to="sv2#mfu6" type="normal" automaticCoupling="true" validate="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#page14#enu6">
+          <layout:Field field="sv2#page14#enu6#fld28"/>
+          <layout:Field field="sv2#page14#enu6#fld29"/>
+          <layout:Field field="sv2#page14#enu6#fld30"/>
+          <layout:Field field="sv2#page14#enu6#fld31"/>
+          <layout:Field field="sv2#page14#enu6#fld32"/>
+          <layout:Field field="sv2#page14#enu6#fld41"/>
+          <layout:Field field="sv2#page14#enu6#fld42"/>
+          <layout:Field field="sv2#page14#enu6#msfld1"/>
+          <layout:Field field="sv2#page14#enu6#sfld1"/>
+          <layout:Link link="sv2#page14#enu6#ln16"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

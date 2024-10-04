@@ -1,0 +1,48 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#page15" name="Welcome" gr:x="5" gr:y="-10" landmark="true">
+  <ContentUnits>
+    <DataUnit id="sv1#page15#dau2" name="Welcome" gr:x="185" gr:y="0" entity="ent2" displayAttributes="ent2#att23">
+      <Selector id="sv1#page15#dau2#su10" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#page15#dau2#su10#kcond10" name="KeyCondition5" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+    <GetUnit id="sv1#page15#gtu5" name="ID" gr:x="0" gr:y="10" contextParameters="UserCtxParam">
+      <Link id="sv1#page15#gtu5#ln17" name="Flow3" to="sv1#page15#dau2" type="transport" validate="true">
+        <LinkParameter id="sv1#page15#gtu5#ln17#par1" name="UserCtxParam.oid_KeyCondition5 [npoID]" source="sv1#page15#gtu5.UserCtxParam" target="sv1#page15#dau2#su10#kcond10.ent2#att18"/>
+      </Link>
+    </GetUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page15#dau2">
+          <layout:Attribute attribute="ent2#att23"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

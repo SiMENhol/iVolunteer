@@ -1,0 +1,325 @@
+[12 jul 2024 02:30:58] Building database metadata model
+[12 jul 2024 02:30:58] Properties: {partialRefresh=false, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@46e220c4, includeTables=true, username=admin, outputLogPath=C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\iVolunteer\.Temp~\DB.xml.log, readIndexes=null, driverClass=org.apache.derby.jdbc.ClientDriver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.DerbyMetaDataProvider, outputPath=C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\iVolunteer\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:derby://localhost:50103/iVolunteer_DB;create=true, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=false, retrieveAllNames=false, tablesToRefresh=, eventSocketPort=55911}
+[12 jul 2024 02:30:58] URL: jdbc:derby://localhost:50103/iVolunteer_DB;create=true
+[12 jul 2024 02:30:58] Product name: Apache Derby
+[12 jul 2024 02:30:58] Product version: 10.5.3.0 - (802917)
+[12 jul 2024 02:30:58] Driver name: Apache Derby Network Client JDBC Driver
+[12 jul 2024 02:30:58] Driver version: 10.5.3.0 - (802917)
+[12 jul 2024 02:30:58] Driver major version: 10
+[12 jul 2024 02:30:58] Driver minor version: 5
+[12 jul 2024 02:30:58] Identifier quote string: 5
+[12 jul 2024 02:30:58] Retrieving schemas
+[12 jul 2024 02:30:58]   Found schema: ADMIN
+[12 jul 2024 02:30:58]   Found schema: APP
+[12 jul 2024 02:30:58]   Found schema: NULLID
+[12 jul 2024 02:30:58]   Found schema: SQLJ
+[12 jul 2024 02:30:58]   Found schema: SYS
+[12 jul 2024 02:30:58]   Found schema: SYSCAT
+[12 jul 2024 02:30:58]   Found schema: SYSCS_DIAG
+[12 jul 2024 02:30:58]   Found schema: SYSCS_UTIL
+[12 jul 2024 02:30:58]   Found schema: SYSFUN
+[12 jul 2024 02:30:58]   Found schema: SYSIBM
+[12 jul 2024 02:30:58]   Found schema: SYSPROC
+[12 jul 2024 02:30:58]   Found schema: SYSSTAT
+[12 jul 2024 02:30:58]   Found schema: app
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'ADMIN'
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'APP'
+[12 jul 2024 02:30:58]   Found 'APP.ADMINS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.CATEGORIES' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.COMPETENCE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.FEEDBACK' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.GROUP' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.GROUP_MODULE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.GROUP_VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.MODULE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.NONPROFITORGANIZATIONENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.NONPROFITORGANIZATIONENTITY_PR' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.PROJECTENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.REWARDS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.TASKENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.USER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.USER_GROUP' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.VOLUNTEERENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.VOLUNTEERENTITY_PROJECTENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'APP.VOLUNTEERENTITY_TASKENTITY_2' [type = TABLE]
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'NULLID'
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SQLJ'
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCAT'
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_DIAG'
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_UTIL'
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSFUN'
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSPROC'
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSSTAT'
+[12 jul 2024 02:30:58] Retrieving [TABLE, VIEW, SYNONYM] for schema 'app'
+[12 jul 2024 02:30:58]   Found 'app.ADMINS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.CATEGORIES' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.COMPETENCE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.FEEDBACK' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.GROUPS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.GROUP_VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.NON_PROFIT_ORGANIZATION' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.PROJECT' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.PROJECT_NPO' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.REWARDS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.TASKS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.TASKS_NPO' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.TASK_VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found 'app.VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.ADMINS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: ADMIN_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: ADMIN_NAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: ADMIN_PASSWORD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: ADMIN_EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.ADMINS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: ADMIN_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.CATEGORIES' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: CATEGORIES_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: CATEGORIES_VALUES [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.CATEGORIES' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: CATEGORIES_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.COMPETENCE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: COMPETENCE_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: COMPETENCE_VALUE [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: COMPETENCE_DATE_GIVEN [type = TIMESTAMP][SQL/XOPEN type = 93][size = 26][dec. digits = 6]
+[12 jul 2024 02:30:58]   Found column: COMPETENCE_TASK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.COMPETENCE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: COMPETENCE_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.FEEDBACK' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: FEEDBACK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: FEEDBACK_VOLUNTEER_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: FEEDBACK_TASK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: FEEDBACK_VALUE [type = VARCHAR][SQL/XOPEN type = 12][size = 500][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.FEEDBACK' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: FEEDBACK_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.GROUP' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: GROUPNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: MODULE_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.GROUP' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: OID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.GROUP_MODULE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: GROUP_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: MODULE_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.GROUP_MODULE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: GROUP_OID
+[12 jul 2024 02:30:58]   Found primary key column: MODULE_OID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.GROUP_VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: GROUP_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.GROUP_VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: GROUP_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.MODULE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: MODULEID [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: MODULENAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.MODULE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: OID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.NONPROFITORGANIZATIONENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: NPOID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPOCATEGORY [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPOINFORMATION [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPOADDRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPOPHONENUMBER [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPOPASSWORD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPOEMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPONAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTENTITY_PROJECTID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.NONPROFITORGANIZATIONENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: NPOID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.NONPROFITORGANIZATIONENTITY_PR' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: NONPROFITORGANIZATIONENTITY_NP [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTENTITY_PROJECTID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.NONPROFITORGANIZATIONENTITY_PR' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: NONPROFITORGANIZATIONENTITY_NP
+[12 jul 2024 02:30:58]   Found primary key column: PROJECTENTITY_PROJECTID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.PROJECTENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: PROJECTID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTREQUIRMENTS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTENDDATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTSTARTDATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTMODIFIEDDATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTCREATEDDATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTSTATUS [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTLOCATION [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTADDRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTDESCRIPTION [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKENTITY_TASKID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.PROJECTENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: PROJECTID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.REWARDS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: REWARDS_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: REWARDS_VALUES [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.REWARDS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: REWARDS_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.TASKENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: TASKID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKUSERSTATUS [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKPROJECTFKID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKREWARDSFKID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKCOMPETENCEFKID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKREQUIRMENTS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKENDDATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKSTARTDATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKMODIFIEDDATE [type = TIME][SQL/XOPEN type = 92][size = 8][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKCREATEDDATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKSTATUS [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKLOCATION [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKADDRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKDESCRIPTION [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.TASKENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: TASKID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.USER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: USERNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PASSWORD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: GROUP_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.USER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: OID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.USER_GROUP' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: USER_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: GROUP_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.USER_GROUP' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: USER_OID
+[12 jul 2024 02:30:58]   Found primary key column: GROUP_OID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.VOLUNTEERENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEERID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEERCOMPETENCEID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEERCATEGORY [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEERADDRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEERPHONENUMBER [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEEREMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEERNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTENTITY_PROJECTID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKENTITY_TASKID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.VOLUNTEERENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: VOLUNTEERID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.VOLUNTEERENTITY_PROJECTENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEERENTITY_VOLUNTEERID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECTENTITY_PROJECTID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.VOLUNTEERENTITY_PROJECTENTITY' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: VOLUNTEERENTITY_VOLUNTEERID
+[12 jul 2024 02:30:58]   Found primary key column: PROJECTENTITY_PROJECTID
+[12 jul 2024 02:30:58] Retrieving columns for 'APP.VOLUNTEERENTITY_TASKENTITY_2' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEERENTITY_VOLUNTEERID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASKENTITY_TASKID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'APP.VOLUNTEERENTITY_TASKENTITY_2' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: VOLUNTEERENTITY_VOLUNTEERID
+[12 jul 2024 02:30:58]   Found primary key column: TASKENTITY_TASKID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.ADMINS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: ADMIN_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: ADMIN_NAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: ADMIN_PASSWORD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: ADMIN_EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.ADMINS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: ADMIN_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.CATEGORIES' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: CATEGORIES_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: CATEGORIES_VALUES [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.CATEGORIES' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: CATEGORIES_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.COMPETENCE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: COMPETENCE_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: COMPETENCE_VALUE [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: COMPETENCE_DATE_GIVEN [type = TIMESTAMP][SQL/XOPEN type = 93][size = 26][dec. digits = 6]
+[12 jul 2024 02:30:58]   Found column: COMPETENCE_TASK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.COMPETENCE' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: COMPETENCE_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.FEEDBACK' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: FEEDBACK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: FEEDBACK_VOLUNTEER_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: FEEDBACK_TASK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: FEEDBACK_VALUE [type = VARCHAR][SQL/XOPEN type = 12][size = 500][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.FEEDBACK' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: FEEDBACK_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.GROUPS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: GROUP_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: GROUP_NAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: GROUP_DESCRIPTION [type = VARCHAR][SQL/XOPEN type = 12][size = 500][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: GROUP_ADDRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.GROUPS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: GROUP_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.GROUP_VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: GROUP_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.GROUP_VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: GROUP_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.NON_PROFIT_ORGANIZATION' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: NPO_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPO_NAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPO_EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPO_PASSWORD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPO_PHONENUMBER [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPO_ADDRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPO_INFORMATION [type = VARCHAR][SQL/XOPEN type = 12][size = 500][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPO_CATEGORY [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.NON_PROFIT_ORGANIZATION' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: NPO_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.PROJECT' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: PROJECT_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_NAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_DESCRIPTION [type = VARCHAR][SQL/XOPEN type = 12][size = 500][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_ADDRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_LOCATION [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_STATUS [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_CREATED_DATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_MODIFIED_DATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_START_DATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_END_DATE [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: PROJECT_REQUIRMENTS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.PROJECT' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: PROJECT_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.PROJECT_NPO' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: PROJECT_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPO_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.PROJECT_NPO' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: PROJECT_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.REWARDS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: REWARDS_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: REWARDS_VALUES [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.REWARDS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: REWARDS_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.TASKS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: TASK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_NAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_DESCRPTION [type = VARCHAR][SQL/XOPEN type = 12][size = 500][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_ADRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_LOCATION [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_STATUS [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_CREATEDDATE [type = TIMESTAMP][SQL/XOPEN type = 93][size = 26][dec. digits = 6]
+[12 jul 2024 02:30:58]   Found column: TASK_MODIFIEDDATE [type = TIMESTAMP][SQL/XOPEN type = 93][size = 26][dec. digits = 6]
+[12 jul 2024 02:30:58]   Found column: TASK_ENDDATE [type = TIMESTAMP][SQL/XOPEN type = 93][size = 26][dec. digits = 6]
+[12 jul 2024 02:30:58]   Found column: TASK_REQUIREMENTS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_COMPETENCE_FK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_REWARDS_FK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_PROJECT_FK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_CATEGORY_FK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_USERSTATUS [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_STARTDATE [type = TIMESTAMP][SQL/XOPEN type = 93][size = 26][dec. digits = 6]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.TASKS' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: TASK_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.TASKS_NPO' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: TASK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: NPO_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.TASKS_NPO' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: TASK_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.TASK_VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: TASK_VOLUNTEER_VOLUNTEER_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: TASK_VOLUNTEER_TASK_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.TASK_VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: TASK_VOLUNTEER_VOLUNTEER_ID
+[12 jul 2024 02:30:58] Retrieving columns for 'app.VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_NAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_EMAILADDRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_PASSWORD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_PHONENUMBER [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_ADDRESS [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_CATEGORY [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[12 jul 2024 02:30:58]   Found column: VOLUNTEER_COMPETENCE_ID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[12 jul 2024 02:30:58] Retrieving primary keys for 'app.VOLUNTEER' [type = TABLE]
+[12 jul 2024 02:30:58]   Found primary key column: VOLUNTEER_ID
+[12 jul 2024 02:30:58] Database metadata retrieved (190 ms)
+[12 jul 2024 02:30:58] Database connection closed

@@ -1,0 +1,34 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="20" gr:y="195" id="sv3#page22" name="MoreInfoAboutProject">
+  <ContentUnits>
+    <PowerIndexUnit gr:x="0" gr:y="0" id="sv3#page22#pwu1" name="Details for project" sortable="true" checkable="false" useCountQuery="false" entity="ent4" displayAttributes="ent4#att41 ent4#att42 ent4#att43 ent4#att44 ent4#att45 ent4#att46 ent4#att47 ent4#att48 ent4#att49 ent4#att50"/>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#page22#pwu1">
+          <layout:Attribute attribute="ent4#att41"/>
+          <layout:Attribute attribute="ent4#att42"/>
+          <layout:Attribute attribute="ent4#att43"/>
+          <layout:Attribute attribute="ent4#att44"/>
+          <layout:Attribute attribute="ent4#att45"/>
+          <layout:Attribute attribute="ent4#att46"/>
+          <layout:Attribute attribute="ent4#att47"/>
+          <layout:Attribute attribute="ent4#att48"/>
+          <layout:Attribute attribute="ent4#att49"/>
+          <layout:Attribute attribute="ent4#att50"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

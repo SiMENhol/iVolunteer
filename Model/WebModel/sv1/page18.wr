@@ -1,0 +1,55 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="65" gr:y="360" id="sv1#page18" name="EditTask">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv1#page18#enu3" name="EditTask" entity="ent6" linkOrder="sv1#page18#enu3#ln21">
+      <Field id="sv1#page18#enu3#fld20" name="taskName" type="string" modifiable="true" attribute="ent6#att71"/>
+      <Field id="sv1#page18#enu3#fld21" name="taskDescription" type="string" modifiable="true" attribute="ent6#att72"/>
+      <Field id="sv1#page18#enu3#fld22" name="taskAddress" type="string" modifiable="true" attribute="ent6#att73"/>
+      <Field id="sv1#page18#enu3#fld23" name="taskLocation" type="string" modifiable="true" attribute="ent6#att74"/>
+      <Field id="sv1#page18#enu3#fld24" name="taskStatus" type="integer" modifiable="true" attribute="ent6#att75"/>
+      <Field id="sv1#page18#enu3#fld25" name="taskCreatedDate" type="date" modifiable="true" attribute="ent6#att76"/>
+      <Field id="sv1#page18#enu3#fld26" name="taskModifiedDate" type="time" modifiable="true" attribute="ent6#att77"/>
+      <Field id="sv1#page18#enu3#fld27" name="taskStartDate" type="date" modifiable="true" attribute="ent6#att79"/>
+      <Field id="sv1#page18#enu3#fld49" name="taskEndDate" type="date" modifiable="true" attribute="ent6#att78"/>
+      <Field id="sv1#page18#enu3#fld50" name="taskRequirments" type="string" modifiable="true" attribute="ent6#att80"/>
+      <Field id="sv1#page18#enu3#fld51" name="taskCompetenceFKID" type="integer" modifiable="true" attribute="ent6#att83"/>
+      <Field id="sv1#page18#enu3#fld52" name="taskRewardsFKID" type="integer" modifiable="true" attribute="ent6#att84"/>
+      <Field id="sv1#page18#enu3#fld53" name="taskProjectFKID" type="integer" modifiable="true" attribute="ent6#att90"/>
+      <Field id="sv1#page18#enu3#fld54" name="taskUserStatus" type="integer" modifiable="true" attribute="ent6#att91"/>
+      <Link id="sv1#page18#enu3#ln21" name="Update" to="sv1#mfu1" automaticCoupling="true" type="normal" validate="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page18#enu3">
+          <layout:Field field="sv1#page18#enu3#fld20"/>
+          <layout:Field field="sv1#page18#enu3#fld21"/>
+          <layout:Field field="sv1#page18#enu3#fld22"/>
+          <layout:Field field="sv1#page18#enu3#fld23"/>
+          <layout:Field field="sv1#page18#enu3#fld24"/>
+          <layout:Field field="sv1#page18#enu3#fld25"/>
+          <layout:Field field="sv1#page18#enu3#fld26"/>
+          <layout:Field field="sv1#page18#enu3#fld27"/>
+          <layout:Field field="sv1#page18#enu3#fld49"/>
+          <layout:Field field="sv1#page18#enu3#fld50"/>
+          <layout:Field field="sv1#page18#enu3#fld51"/>
+          <layout:Field field="sv1#page18#enu3#fld52"/>
+          <layout:Field field="sv1#page18#enu3#fld53"/>
+          <layout:Field field="sv1#page18#enu3#fld54"/>
+          <layout:Link link="sv1#page18#enu3#ln21"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

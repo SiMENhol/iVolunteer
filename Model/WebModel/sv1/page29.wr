@@ -1,0 +1,27 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="875" gr:y="430" id="sv1#page29" name="add task to project">
+  <ContentUnits>
+    <IndexUnit gr:x="0" gr:y="0" id="sv1#page29#inu8" name="Simple List8" entity="ent6" displayAttributes="ent6#att70 ent6#att71 ent6#att90"/>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page29#inu8">
+          <layout:Attribute attribute="ent6#att70"/>
+          <layout:Attribute attribute="ent6#att71"/>
+          <layout:Attribute attribute="ent6#att90"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

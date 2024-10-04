@@ -1,0 +1,92 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="930" gr:y="45" id="sv3#page2" name="Structured Search" landmark="true">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="10" id="sv3#page2#enu1" name="Search" linkOrder="sv3#page2#enu1#ln5 sv3#page2#enu1#ln7">
+      <Field id="sv3#page2#enu1#fld2" name="Search" type="string" modifiable="true"/>
+      <Link id="sv3#page2#enu1#ln5" name="Search projects" to="sv3#page2#pwu2" type="normal" validate="true">
+        <LinkParameter id="sv3#page2#enu1#ln5#par3" name="ProjectName_ProjectName" source="sv3#page2#enu1#fld2" target="sv3#page2#pwu2#su3#acond1"/>
+      </Link>
+      <Link id="sv3#page2#enu1#ln7" name="Search for NPOs" to="sv3#page2#pwu4" type="normal" validate="true">
+        <LinkParameter id="sv3#page2#enu1#ln7#par5" name="NPO_NPOName" source="sv3#page2#enu1#fld2" target="sv3#page2#pwu4#su16#acond3"/>
+      </Link>
+    </EntryUnit>
+    <PowerIndexUnit gr:x="150" gr:y="0" id="sv3#page2#pwu2" name="Project" sortable="true" checkable="false" useCountQuery="false" entity="ent4" displayAttributes="ent4#att41 ent4#att44 ent4#att48" linkOrder="sv3#page2#pwu2#ln36">
+      <SortAttribute attribute="ent4#att48" order="ascending"/>
+      <Selector id="sv3#page2#pwu2#su3" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="sv3#page2#pwu2#su3#acond1" name="ProjectName" predicate="contains" booleanOperator="or" implied="true" attributes="ent4#att41" ignoreCase="true"/>
+      </Selector>
+      <Link id="sv3#page2#pwu2#ln36" name="View more information" to="sv3#page7#dau5" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+    <PowerIndexUnit gr:x="65" gr:y="125" id="sv3#page2#pwu4" name="NPO" sortable="true" checkable="false" useCountQuery="false" entity="ent2" displayAttributes="ent2#att23 ent2#att34" linkOrder="sv3#page2#pwu4#ln38">
+      <Selector id="sv3#page2#pwu4#su16" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="sv3#page2#pwu4#su16#acond3" name="NPOName" predicate="contains" booleanOperator="or" implied="true" attributes="ent2#att23 ent2#att34" ignoreCase="true"/>
+      </Selector>
+      <SortAttribute attribute="ent2#att23" order="ascending"/>
+      <Link id="sv3#page2#pwu4#ln38" name="View more information" to="sv3#page24#dau7" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#page2#enu1">
+          <layout:Field field="sv3#page2#enu1#fld2"/>
+          <layout:Link link="sv3#page2#enu1#ln5"/>
+          <layout:Link link="sv3#page2#enu1#ln7"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="6">
+        <layout:Unit unitId="sv3#page2#pwu2">
+          <layout:Attribute attribute="ent4#att41"/>
+          <layout:Attribute attribute="ent4#att44"/>
+          <layout:Attribute attribute="ent4#att48"/>
+          <layout:Link link="sv3#page2#pwu2#ln36"/>
+          <layout:Link link="sv3#page2#pwu2ent4#att48"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell colspan="6">
+        <layout:Unit unitId="sv3#page2#pwu4">
+          <layout:Attribute attribute="ent2#att23"/>
+          <layout:Attribute attribute="ent2#att34"/>
+          <layout:Link link="sv3#page2#pwu4#ln38"/>
+          <layout:Link link="sv3#page2#pwu4ent2#att23"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

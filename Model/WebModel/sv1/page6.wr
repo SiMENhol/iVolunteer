@@ -1,0 +1,73 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="1680" gr:y="-90" id="sv1#page6" name="Create Project">
+  <ContentUnits>
+    <EntryUnit gr:x="125" gr:y="0" id="sv1#page6#enu4" name="Create Project" entity="ent4" linkOrder="sv1#page6#enu4#ln37">
+      <Field id="sv1#page6#enu4#fld3" name="projectName" type="string" modifiable="true" attribute="ent4#att41"/>
+      <Field id="sv1#page6#enu4#fld6" name="projectDescription" type="string" modifiable="true" attribute="ent4#att42"/>
+      <Field id="sv1#page6#enu4#fld7" name="projectAddress" type="string" modifiable="true" attribute="ent4#att43"/>
+      <Field id="sv1#page6#enu4#fld8" name="projectLocation" type="string" modifiable="true" attribute="ent4#att44"/>
+      <Field id="sv1#page6#enu4#fld17" name="projectStatus" type="integer" modifiable="true" attribute="ent4#att45"/>
+      <Field id="sv1#page6#enu4#fld18" name="projectCreatedDate" type="date" modifiable="true" attribute="ent4#att46"/>
+      <Field id="sv1#page6#enu4#fld19" name="projectModifiedDate" type="date" modifiable="true" attribute="ent4#att47"/>
+      <Field id="sv1#page6#enu4#fld33" name="projectStartDate" type="date" modifiable="true" attribute="ent4#att48"/>
+      <Field id="sv1#page6#enu4#fld34" name="projectEndDate" type="date" modifiable="true" attribute="ent4#att49"/>
+      <Field id="sv1#page6#enu4#fld35" name="projectRequirments" type="string" modifiable="true" attribute="ent4#att50"/>
+      <MultiSelectionField id="sv1#page6#enu4#msfld3" name="ProjectEntityToNonProfitOrganizationEntity" type="string" role="rel11#role22"/>
+      <Link id="sv1#page6#enu4#ln37" name="Create" to="sv1#cru1" type="normal" validate="true">
+        <LinkParameter id="sv1#page6#enu4#ln37#par6" name="ProjectEntityToNonProfitOrganizationEntity_NonProfitOrganizationEntity.npoID(ProjectEntityToNonProfitOrganizationEntity)" source="sv1#page6#enu4#msfld3" target="sv1#cru1.rel11#role22.ent2#att18"/>
+        <LinkParameter id="sv1#page6#enu4#ln37#par8" name="ProjectEntity Object_ProjectEntity Object" source="entityBean" target="sv1#cru1.entityBeans"/>
+      </Link>
+    </EntryUnit>
+    <GetUnit gr:x="0" gr:y="0" id="sv1#page6#gtu1" name="Get1" contextParameters="UserCtxParam">
+      <Link id="sv1#page6#gtu1#ln31" name="Flow31" to="sv1#page6#enu4" type="transport" validate="true">
+        <LinkParameter id="sv1#page6#gtu1#ln31#par4" name="UserCtxParam.oid_ProjectEntityToNonProfitOrganizationEntity - Preselection" source="sv1#page6#gtu1.UserCtxParam" target="sv1#page6#enu4#msfld3_presel"/>
+        <LinkParameter id="sv1#page6#gtu1#ln31#par9" name="UserCtxParam.oid_ProjectEntityToNonProfitOrganizationEntity [label]" source="sv1#page6#gtu1.UserCtxParam" target="sv1#page6#enu4#msfld3_label"/>
+        <LinkParameter id="sv1#page6#gtu1#ln31#par13" name="UserCtxParam.oid_ProjectEntityToNonProfitOrganizationEntity [output]" source="sv1#page6#gtu1.UserCtxParam" target="sv1#page6#enu4#msfld3_output"/>
+      </Link>
+    </GetUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page6#enu4">
+          <layout:Field field="sv1#page6#enu4#fld3"/>
+          <layout:Field field="sv1#page6#enu4#fld6"/>
+          <layout:Field field="sv1#page6#enu4#fld7"/>
+          <layout:Field field="sv1#page6#enu4#fld8"/>
+          <layout:Field field="sv1#page6#enu4#fld17"/>
+          <layout:Field field="sv1#page6#enu4#fld18"/>
+          <layout:Field field="sv1#page6#enu4#fld19"/>
+          <layout:Field field="sv1#page6#enu4#fld33"/>
+          <layout:Field field="sv1#page6#enu4#fld34"/>
+          <layout:Field field="sv1#page6#enu4#fld35"/>
+          <layout:Field field="sv1#page6#enu4#msfld3"/>
+          <layout:Link link="sv1#page6#enu4#ln37"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

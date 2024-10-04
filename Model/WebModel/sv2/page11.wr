@@ -1,0 +1,43 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="845" gr:y="170" id="sv2#page11" name="Edit volunteer">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv2#page11#enu5" name="Edit volunteer" entity="ent1" linkOrder="sv2#page11#enu5#ln15">
+      <Field id="sv2#page11#enu5#fld43" name="Name" type="string" modifiable="true" attribute="ent1#att15"/>
+      <Field id="sv2#page11#enu5#fld44" name="Email" type="string" modifiable="true" attribute="ent1#att16"/>
+      <Field id="sv2#page11#enu5#fld45" name="PhoneNumber" type="integer" modifiable="true" attribute="ent1#att5"/>
+      <Field id="sv2#page11#enu5#fld46" name="Address" type="string" modifiable="true" attribute="ent1#att6"/>
+      <Field id="sv2#page11#enu5#fld47" name="Category" type="string" modifiable="true" attribute="ent1#att11"/>
+      <Field id="sv2#page11#enu5#fld48" name="volunteerCompetenceID" type="integer" modifiable="true" attribute="ent1#att12"/>
+      <MultiSelectionField id="sv2#page11#enu5#msfld2" name="VolunteerEntityToProjectEntity" type="string" role="rel3#role5"/>
+      <SelectionField id="sv2#page11#enu5#sfld2" name="VolunteerEntityToProjectEntity_2" type="string" role="rel4#role7"/>
+      <Link id="sv2#page11#enu5#ln15" name="Update" to="sv2#mfu5" type="normal" automaticCoupling="true" validate="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#page11#enu5">
+          <layout:Field field="sv2#page11#enu5#fld43"/>
+          <layout:Field field="sv2#page11#enu5#fld44"/>
+          <layout:Field field="sv2#page11#enu5#fld45"/>
+          <layout:Field field="sv2#page11#enu5#fld46"/>
+          <layout:Field field="sv2#page11#enu5#fld47"/>
+          <layout:Field field="sv2#page11#enu5#fld48"/>
+          <layout:Field field="sv2#page11#enu5#msfld2"/>
+          <layout:Field field="sv2#page11#enu5#sfld2"/>
+          <layout:Link link="sv2#page11#enu5#ln15"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>
